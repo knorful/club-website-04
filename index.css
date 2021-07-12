@@ -48,7 +48,6 @@ body {
 
 #mission {
   margin-left: 20px;
-  margin-bottom: 100px;
 }
 
 #mission h2 {
@@ -61,13 +60,13 @@ body {
 
 /* pics */
 
-#pics {
+.pics {
   display: flex;
   justify-content: center;
-  margin-bottom: 100px;
+  margin: 100px 0;
 }
 
-#pics img {
+.pics img {
   width: 550px;
   height: auto;
   margin: 0 20px;
