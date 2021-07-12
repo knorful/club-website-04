@@ -1,0 +1,40 @@
+/* Universal Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #ffa07a;
+}
+
+/* Grid Styles */
+
+#grid {
+  display: grid;
+  grid-template: repeat(12, 200px) / repeat(6, 1fr);
+  width: 100%;
+}
+
+/* Header */
+header {
+  grid-column: 1 / -1;
+}
+
+#nav-links {
+  display: flex;
+  background-color: #008080;
+}
+
+#nav-links li {
+  margin: 25px 40px 10px 50px;
+  list-style: none;
+}
+
+#nav-links a {
+  text-decoration: none;
+  color: #ffa07a;
+  font-size: 1.2rem;
+}
