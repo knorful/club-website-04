@@ -47,7 +47,7 @@ body {
 /* Mission */
 
 #mission {
-  margin-left: 20px;
+  margin: 0 20px;
 }
 
 #mission h2 {
@@ -67,9 +67,10 @@ body {
 }
 
 .pics img {
-  width: 550px;
+  width: 80%;
   height: auto;
-  margin: 0 20px;
+  display: block;
+  margin: auto;
 }
 
 /* Aside quote */
@@ -82,4 +83,34 @@ body {
 
 #quote h1 {
   font-size: 2.5rem;
+}
+
+/* open invite */
+
+#open-invite {
+  color: yellow;
+  text-align: center;
+}
+
+#open-invite h1 {
+  font-size: 2rem;
+  margin: 15px 0;
+}
+
+#open-invite img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .pics {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pics img {
+    margin-bottom: 20px;
+  }
 }
